@@ -1,0 +1,51 @@
+.container{
+    background-color: white;
+    padding: 200px 100px 100px 400px;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px;
+}
+
+.box1 ,.box2 ,.box3 , .box4 {
+    height: 200px;
+    width: 200px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: green;
+}
+
+.box1:hover{
+    transform-origin: top left;
+    transform: rotate(90deg);
+}
+
+.box2:hover{
+    transform-origin: top right;
+    transform: rotate(90deg);
+}
+
+.box3:hover{
+    transform-origin: bottom left;
+    transform: rotate(90deg);
+}
+
+.box4:hover{
+    transform-origin: bottom right;
+    transform: rotate(90deg);
+}
