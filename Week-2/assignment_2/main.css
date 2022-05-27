@@ -11,6 +11,7 @@
 .box1 ,.box2 ,.box3 , .box4 {
     height: 200px;
     width: 200px;
+    position: relative;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease;
