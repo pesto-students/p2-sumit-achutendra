@@ -1,0 +1,8 @@
+the output of exercise3.3 is =
+
+Count is 0
+
+because message is created and assigned the value only ones 
+as the initial value of count was 0 when it was assigned to message and updated 
+afterwards so the value of message will remain 0.
+it is important to check where(place) the value is being assigned.
