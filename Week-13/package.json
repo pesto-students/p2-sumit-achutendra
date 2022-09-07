@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "request": "^2.88.2"
+  },
+  "name": "week-13",
+  "version": "1.0.0",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "achutendra singh",
+  "license": "ISC",
+  "description": ""
+}
